@@ -1,0 +1,104 @@
+.sub_container_six {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 150px;
+  border: 1px solid black;
+  border-radius: 75px;
+  border: none;
+  background: #f4f9ff;
+
+  .subscribe_container {
+    margin-left: 90px;
+    position: relative;
+
+    .corner {
+      position: absolute;
+      transform: rotate(90deg);
+      z-index: -1;
+      top: 46px;
+      left: -116px;
+      width: 178px;
+      height: 178px;
+      background: #fff5db;
+      border-radius: 0px 0px 100px 0px;
+    }
+
+    h2 {
+      color: #000;
+      font-family: "Averta";
+      font-size: 40px;
+      font-weight: 800;
+    }
+
+    p {
+      margin-top: 17px;
+      color: #757575;
+      font-family: "Averta";
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 160%; /* 28.8px */
+    }
+  }
+}
+
+.contact_form {
+  .bg_contact {
+    position: relative;
+    width: 540px;
+    height: 292px;
+    background: url("assets/img/Rectangle 31.png") center/cover;
+
+    .dot_contact {
+      height: 154px;
+      width: 175px;
+      position: absolute;
+      background: url("assets/img/dot_blue.png");
+      top: -60px;
+      left: 363px;
+      z-index: -1;
+    }
+  }
+  #emailContact {
+    position: absolute;
+    top: 102px;
+    left: -96px;
+    height: 80px;
+    width: 479px;
+    border-radius: 60px;
+    border: 1px solid #f1f1f1;
+    box-shadow: 10px 20px 50px 0px rgba(0, 0, 0, 0.15);
+    color: #959595;
+    font-family: "Averta";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 34px;
+  }
+}
+.contactBtn {
+  position: absolute;
+  top: 113px;
+  left: 181px;
+  height: 60px;
+  width: 188px;
+  border-radius: 60px;
+  background: #2639ed;
+  border: none;
+  padding: 20px 40px;
+  color: white;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: "Averta";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  cursor: pointer;
+
+  &:hover {
+    background: #3d4eea;
+  }
+}

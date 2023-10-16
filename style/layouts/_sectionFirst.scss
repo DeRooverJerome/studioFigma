@@ -1,0 +1,119 @@
+.sectionFirst {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  .container {
+    display: flex;
+    align-items: center;
+
+    .sectionFirst_leftContainer {
+      height: 512px;
+      display: flex;
+      flex-direction: column;
+      margin-left: 120px;
+      position: relative;
+      .leftContainer_text {
+        height: 78px;
+      }
+    }
+
+    h1 {
+      color: #000;
+      font-family: "Averta";
+      font-size: 40px;
+      font-weight: 800;
+      margin-top: 120px;
+      margin-bottom: 40px;
+    }
+    p {
+      color: #565656;
+      font-family: "Averta";
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 160%;
+      margin-bottom: 33px;
+      margin-right: 95px;
+    }
+  }
+}
+
+.contact_btn {
+  border-radius: 60px;
+  border: none;
+  background: #2639ed;
+  padding: 20px 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+  font-family: "Averta";
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1.3px;
+  cursor: pointer;
+
+  &:hover {
+    background: rgb(225, 223, 223);
+    color: #2639ed;
+    transition: 0.2s ease-in;
+  }
+}
+
+.bg_img {
+  background: url("assets/img/background image first container.png")
+    center/cover;
+  height: 512px;
+  width: 754px;
+  border-bottom-left-radius: 40%;
+}
+
+.sectionFirst_rightContainer {
+  position: relative;
+  .blue_round {
+    height: 129px;
+    width: 129px;
+    border-radius: 100%;
+    flex-shrink: 0;
+    background: #dae9ff;
+    position: absolute;
+    top: 0;
+    right: 685px;
+    z-index: -1;
+  }
+
+  .yellow_round {
+    position: absolute;
+    top: 430px;
+    right: 120px;
+    width: 178px;
+    height: 178px;
+    flex-shrink: 0;
+    border-radius: 0px 0px 100px 0px;
+    background: #fff5db;
+    z-index: -1;
+  }
+}
+
+.deco_dots {
+  position: relative;
+  .btn_container {
+    &::after {
+      content: url(../../assets/img/Dot.png);
+      height: 154px;
+      width: 196px;
+      position: absolute;
+      z-index: -1;
+      top: 35px;
+      left: -60px;
+    }
+    &::before {
+      content: url(../../assets/img/Dot.png);
+      height: 154px;
+      width: 196px;
+      position: absolute;
+      z-index: -1;
+      top: 35px;
+      left: 150px;
+    }
+  }
+}

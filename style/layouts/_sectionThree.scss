@@ -1,0 +1,161 @@
+.sub_container_two {
+  display: flex;
+  overflow: hidden;
+}
+
+.sectionThree_left_container {
+  margin: 0 120px;
+  position: relative;
+  margin: auto;
+
+  .yellow_square {
+    border-radius: 0px 0px 100px 0px;
+    background: #fff5db;
+    position: absolute;
+    height: 178px;
+    width: 178px;
+    z-index: -2;
+    top: -50px;
+    left: -10px;
+    transform: rotate(180deg);
+  }
+}
+.left_title {
+  width: 358px;
+  margin-bottom: 30px;
+  margin-left: 40px;
+  h2 {
+    color: #000;
+    font-family: "Averta";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+}
+
+.left_text {
+  width: 396px;
+  margin-left: 40px;
+  p {
+    color: #565656;
+    font-family: "Averta";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+  }
+}
+
+.sectionThree_right_container {
+  display: flex;
+  height: 1200px;
+}
+
+.container_card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  width: 308px;
+  height: 379px;
+  border-radius: 40px;
+  border: 1px solid #f2f2f2;
+  background: #fff;
+  box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+
+  &:hover {
+    background: #f3ebeb;
+  }
+
+  .icon {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 121px;
+    height: 121px;
+    border-radius: 20px;
+    background: #f1f7ff;
+  }
+}
+
+.text_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h3 {
+    color: #000;
+    text-align: center;
+    font-family: "Averta";
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 30px;
+    width: 200px;
+  }
+  p {
+    margin-top: 30px;
+    width: 240px;
+    text-align: center;
+  }
+}
+
+.img_card {
+  width: 74px;
+  height: 74px;
+}
+
+.right_container_left_side {
+  height: 100vh;
+  margin-top: 190px;
+  margin-right: 34px;
+  .container_card {
+    margin-bottom: 30px;
+  }
+}
+
+.right_container_right_side {
+  margin-top: 124px;
+  .container_card {
+    margin-bottom: 30px;
+  }
+}
+
+.sectionThree_right_container {
+  position: relative;
+  margin-right: 183px;
+
+  .bg_blue {
+    width: 1047px;
+    height: 619px;
+    flex-shrink: 0;
+    position: absolute;
+    z-index: -1;
+    border-radius: 150px 0px 0px 0px;
+    background: #f4f9ff;
+    top: 250px;
+    left: -250px;
+  }
+
+  .dot_second {
+    background: url(../../assets/img/Dot.png) center/cover;
+    transform: rotate(90deg);
+    position: absolute;
+    height: 196px;
+    width: 154px;
+    bottom: 260px;
+    left: -280px;
+    z-index: -2;
+  }
+  .dot_third {
+    background: url(../../assets/img/Dot.png) center/cover;
+    transform: rotate(90deg);
+    position: absolute;
+    height: 196px;
+    width: 154px;
+    bottom: 260px;
+    left: -468px;
+    z-index: -2;
+  }
+}

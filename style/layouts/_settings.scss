@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "Averta";
+  src: url(../../assets/fonts/FontsFree-Net-AvertaDemoPECuttedDemo-Regular.ttf);
+}
+
+$white_primary: hsla(0, 0%, 96%, 1);
+$black: hsla(0, 0%, 0%, 1);
+
+@mixin flex_center {
+  display: flex;
+  align-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: "Averta", sans-serif;
+  background: #fefefe;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+img {
+  display: block;
+  width: 100%;
+}

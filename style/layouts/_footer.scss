@@ -1,0 +1,143 @@
+.final_menu {
+  display: flex;
+
+  .left_menu {
+    width: 270px;
+    margin-left: 120px;
+    margin-top: 116px;
+
+    h2 {
+      color: #000;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      color: #000;
+      font-family: "Averta";
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+    }
+
+    p {
+      color: #565656;
+      font-family: "Averta";
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 160%; /* 22.4px */
+      margin-top: 26px;
+    }
+  }
+}
+
+.social {
+  ul {
+    margin-top: 40px;
+    display: flex;
+    gap: 16px;
+
+    li {
+      .fa-facebook-f {
+        background: hsla(221, 44%, 41%, 1);
+        border-radius: 50%;
+        height: 36px;
+        width: 36px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        cursor: pointer;
+        transition: transform 0.5s;
+
+        &:hover {
+          transform: rotateY(360deg);
+        }
+      }
+
+      .fa-twitter {
+        background: hsla(206, 82%, 63%, 1);
+        border-radius: 50%;
+        height: 36px;
+        width: 36px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        cursor: pointer;
+        transition: transform 0.5s;
+        &:hover {
+          transform: rotateY(360deg);
+        }
+      }
+
+      .fa-linkedin-in {
+        background: hsla(200, 100%, 36%, 1);
+        border-radius: 50%;
+        height: 36px;
+        width: 36px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        cursor: pointer;
+        transition: transform 0.5s;
+
+        &:hover {
+          transform: rotateY(360deg);
+        }
+      }
+    }
+  }
+}
+
+.right_menu {
+  margin-left: 220px;
+  margin-top: 116px;
+  display: flex;
+  gap: 120px;
+
+  h3 {
+    margin-bottom: 26px;
+    color: #000;
+    font-family: "Averta";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+
+  ul {
+    li {
+      a {
+        color: #000;
+        font-family: "Averta";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 200%; /* 28px */
+        cursor: pointer;
+
+        &:hover {
+          color: #2639ed;
+        }
+      }
+    }
+  }
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  p {
+    color: #a4a4a4;
+    font-family: "Averta";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 22.4px */
+    margin-bottom: 23px;
+    margin-top: 46px;
+  }
+}

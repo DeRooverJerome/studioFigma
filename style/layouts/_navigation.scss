@@ -1,0 +1,109 @@
+.nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+  overflow: hidden;
+}
+
+.logo_nav {
+  display: flex;
+  align-items: center;
+  margin-left: 120px;
+
+  span {
+    color: #000;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 27.147px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .plus {
+    color: #000;
+    font-family: "Averta";
+    font-size: 27.147px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 2px;
+  }
+
+  h2 {
+    font-family: "Averta";
+    font-size: 27.147px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 8px;
+  }
+}
+
+.menu_nav {
+  ul {
+    display: flex;
+    gap: 60px;
+    margin-right: 120px;
+
+    a {
+      color: #000;
+      font-family: "Averta";
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      letter-spacing: 0.16px;
+      cursor: pointer;
+
+      &:hover {
+        color: #2639ed;
+      }
+    }
+  }
+}
+
+.fa-solid {
+  color: #000;
+  display: none;
+
+  &:hover {
+    color: #2639ed;
+  }
+
+  &:active {
+    color: red;
+  }
+}
+
+.burger {
+  display: none;
+}
+
+.slide_menu {
+  height: 100%;
+  width: 120px;
+  background: #2639ed;
+  transform: translateX(1440px);
+  transition: 0.2s ease;
+  padding-left: 10px;
+  ul {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    li {
+      margin-bottom: 5px;
+      a {
+        color: white;
+
+        &:hover {
+          color: rgb(234, 76, 76);
+        }
+      }
+    }
+  }
+}
+
+.active {
+  transform: translateX(0);
+}
