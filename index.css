@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Averta";
-  src: url(../../assets/fonts/FontsFree-Net-AvertaDemoPECuttedDemo-Regular.ttf);
+  src: url("assets/fonts/FontsFree-Net-AvertaDemoPECuttedDemo-Regular.ttf");
 }
 * {
   margin: 0;
